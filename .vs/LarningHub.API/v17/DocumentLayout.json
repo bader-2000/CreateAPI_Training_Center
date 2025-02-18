@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|c:\\users\\qk-21\\source\\repos\\larninghub.api\\larninghub.api\\larninghub.infra\\repository\\repositorystdcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|solutionrelative:larninghub.infra\\repository\\repositorystdcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|c:\\users\\qk-21\\source\\repos\\larninghub.api\\larninghub.api\\larninghub.infra\\repository\\repositorycourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|solutionrelative:larninghub.infra\\repository\\repositorycourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 319,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepositorySTDCourse.cs",
+              "DocumentMoniker": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Repository\\RepositorySTDCourse.cs",
+              "RelativeDocumentMoniker": "LarningHub.Infra\\Repository\\RepositorySTDCourse.cs",
+              "ToolTip": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Repository\\RepositorySTDCourse.cs",
+              "RelativeToolTip": "LarningHub.Infra\\Repository\\RepositorySTDCourse.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T23:43:25.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RepositoryCourse.cs",
+              "DocumentMoniker": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Repository\\RepositoryCourse.cs",
+              "RelativeDocumentMoniker": "LarningHub.Infra\\Repository\\RepositoryCourse.cs",
+              "ToolTip": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Repository\\RepositoryCourse.cs",
+              "RelativeToolTip": "LarningHub.Infra\\Repository\\RepositoryCourse.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T23:15:34.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

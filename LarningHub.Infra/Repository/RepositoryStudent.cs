@@ -1,0 +1,19 @@
+﻿using LarningHub.Core.Common;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LarningHub.Infra.Repository
+{
+    public class RepositoryStudent
+    {
+        private readonly IDBContext _IdbContext;
+
+        public RepositoryStudent(IDBContext IdbContext)
+        {
+            _IdbContext = IdbContext;
+        }
+    }
+}
