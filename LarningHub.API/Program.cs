@@ -14,8 +14,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IDBContext, DBContext>();
-builder.Services.AddScoped<IRepositoryCourse, RepositoryCourse>();
-builder.Services.AddScoped<ICourseServices, CourseServices>();
+builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+builder.Services.AddScoped<ICourseService, CourseServices>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

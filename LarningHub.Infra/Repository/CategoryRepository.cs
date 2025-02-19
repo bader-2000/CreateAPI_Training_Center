@@ -13,10 +13,10 @@ using System.Threading.Tasks;
 
 namespace LarningHub.Infra.Repository
 {
-    public class RepositoryCategory : IRepositoryCategory
+    public class CategoryRepository : ICategoryRepository
     {
         private readonly IDBContext _dBContext;
-        public RepositoryCategory( IDBContext dBContext) 
+        public CategoryRepository( IDBContext dBContext) 
         {
             _dBContext = dBContext;
         }

@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 
 namespace LarningHub.Core.Services
 {
-    public interface ICourseServices
+    public interface ICourseService
     {
+     
         public List<Course> GetAllCourse();
-        public Course GetCourseByID(int id);
+        public Course GetCourseByID(int ID);
         public void CreateCourse(Course course);
         public void UpdateCourse(Course course);
-        public void DeleteCourse(int id);
+        public void DeleteCourse(int ID);
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LarningHub.Core.Repository
 {
-    public interface IRepositoryCategory
+    public interface ICategoryRepository
     {
         public List<Category>  GetAllCategory();
         public Category GetCategoryByID(int ID);

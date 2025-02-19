@@ -7,11 +7,11 @@ using System.Data;
 
 namespace LarningHub.Infra.Repository
 {
-    public class RepositoryCourse : IRepositoryCourse
+    public class CourseRepository : ICourseRepository
     {
         private readonly IDBContext _IdbContext;
 
-        public RepositoryCourse(IDBContext IdbContext)
+        public CourseRepository(IDBContext IdbContext)
         {
             _IdbContext = IdbContext;
         }

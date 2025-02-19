@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LarningHub.Core.Repository
 {
-    public interface IRepositoryCourse
+    public interface ICourseRepository
     {
         public List<Course> GetAllCourse();
         public Course GetCourseByID(int ID);

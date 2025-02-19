@@ -11,11 +11,11 @@ using System.Threading.Tasks;
 
 namespace LarningHub.Infra.Repository
 {
-    public class RepositoryLogin : IRepositoryLogin
+    public class LoginRepository : IRepositoryLogin
     {
         private readonly IDBContext _IdbContext;
 
-        public RepositoryLogin(IDBContext IdbContext)
+        public LoginRepository(IDBContext IdbContext)
         {
             _IdbContext = IdbContext;
         }

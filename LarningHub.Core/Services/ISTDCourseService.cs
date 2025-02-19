@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LarningHub.Core.Repository
+namespace LarningHub.Core.Services
 {
-    public interface IRepositorySTDCourse
+    public interface ISTDCourseService
     {
         public List<Stdcourse> GetAllSTDcourse();
         public Stdcourse GetSTDcourseByID(int ID);
