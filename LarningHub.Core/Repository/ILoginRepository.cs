@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LarningHub.Core.Repository
 {
-    public interface IRepositoryLogin
+    public interface ILoginRepository
     {
         public List<Login> GetAllLogin();
         public Login GetLoginByID(int ID);

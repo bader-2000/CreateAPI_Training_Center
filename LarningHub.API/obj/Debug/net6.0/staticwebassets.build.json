@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "T6lnrUrjvdOH5B0azO5J+TXTXG/SA/shajvAK0LGK/o=",
+  "Hash": "evPN+GGYhIslH2SAMoeqKEzLwULQSSZZ/idtIAR9SGg=",
   "Source": "LarningHub.API",
   "BasePath": "_content/LarningHub.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

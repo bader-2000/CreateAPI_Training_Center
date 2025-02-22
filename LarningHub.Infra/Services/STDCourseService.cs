@@ -11,36 +11,36 @@ namespace LarningHub.Infra.Services
 {
     public class STDCourseService : ISTDCourseService
     {
-        private readonly ISTDCourseService _stdcourseService;
+        private readonly ISTDCourseRepository _sTDCourseRepository;
 
-        public STDCourseService(ISTDCourseService stdcourseService)
+        public STDCourseService(ISTDCourseRepository sTDCourseRepository)
         {
-            _stdcourseService = stdcourseService;
+            _sTDCourseRepository = sTDCourseRepository;
         }
 
         public void CreateSTDcourse(Stdcourse stdcourse)
         {
-            _stdcourseService.CreateSTDcourse(stdcourse);
+            _sTDCourseRepository.CreateSTDcourse(stdcourse);
         }
 
         public void DeleteSTDcourse(int ID)
         {
-           _stdcourseService.DeleteSTDcourse(ID);
+           _sTDCourseRepository.DeleteSTDcourse(ID);
         }
 
         public List<Stdcourse> GetAllSTDcourse()
         {
-            return _stdcourseService.GetAllSTDcourse(); 
+            return _sTDCourseRepository.GetAllSTDcourse(); 
         }
 
         public Stdcourse GetSTDcourseByID(int ID)
         {
-           return _stdcourseService.GetSTDcourseByID(ID);
+           return _sTDCourseRepository.GetSTDcourseByID(ID);
         }
 
         public void UpdateSTDcourse(Stdcourse stdcourse)
         {
-            _stdcourseService.UpdateSTDcourse(stdcourse);
+            _sTDCourseRepository.UpdateSTDcourse(stdcourse);
         }
     }
 }

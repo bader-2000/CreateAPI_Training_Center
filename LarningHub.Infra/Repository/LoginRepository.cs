@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace LarningHub.Infra.Repository
 {
-    public class LoginRepository : IRepositoryLogin
+    public class LoginRepository : ILoginRepository
     {
         private readonly IDBContext _IdbContext;
 

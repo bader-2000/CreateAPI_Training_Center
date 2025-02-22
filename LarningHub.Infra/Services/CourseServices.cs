@@ -1,4 +1,5 @@
 ﻿using LarningHub.Core.Data;
+using LarningHub.Core.Repository;
 using LarningHub.Core.Services;
 using System;
 using System.Collections.Generic;
@@ -10,34 +11,35 @@ namespace LarningHub.Infra.Services
 {
     public class CourseServices : ICourseService
     {
-        private readonly ICourseService _courseServices;
-        public CourseServices(ICourseService courseServices)
+        private readonly ICourseRepository _courseRepository;
+
+        public CourseServices(ICourseRepository courseRepository)
         {
-            _courseServices = courseServices;
+            _courseRepository = courseRepository;
         }
         public void CreateCourse(Course course)
         {
-            _courseServices.CreateCourse(course);   
+            _courseRepository.CreateCourse(course);   
         }
 
         public void DeleteCourse(int id)
         {
-            _courseServices.DeleteCourse(id);
+            _courseRepository.DeleteCourse(id);
         }
 
         public List<Course> GetAllCourse()
         {
-            return _courseServices.GetAllCourse();
+            return _courseRepository.GetAllCourse();
         }
 
         public Course GetCourseByID(int id)
         {
-            return _courseServices.GetCourseByID(id);
+            return _courseRepository.GetCourseByID(id);
         }
 
         public void UpdateCourse(Course course)
         {
-            _courseServices.UpdateCourse(course);
+            _courseRepository.UpdateCourse(course);
         }
     }
 }

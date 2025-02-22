@@ -25,7 +25,7 @@ namespace LarningHub.Infra.Repository
             var p = new DynamicParameters();
             p.Add("student_Fname",student.Firstname,dbType:DbType.String,direction:ParameterDirection.Input);
             p.Add("student_Lname", student.Lastname,dbType:DbType.String,direction:ParameterDirection.Input);
-            p.Add("student_date", student.Dateofbirth,dbType:DbType.Date,direction:ParameterDirection.Input);
+            p.Add("student_date", student.Dateofbirth,dbType:DbType.DateTime, direction:ParameterDirection.Input);
             var result = _IdbContext.Connection.Execute("student_Package.CreateStudent", p,commandType:CommandType.StoredProcedure);
         }
 
@@ -45,25 +45,28 @@ namespace LarningHub.Infra.Repository
             return result.ToList();
         }
 
-        public List<Student> displayStudentbetweenInterval(DateOnly from_date, DateOnly to_date)
+        public List<Student> displayStudentbetweenInterval(DateTime from_date, DateTime to_date)
         {
             var p = new DynamicParameters();
-            p.Add("from_dateS",from_date, dbType: DbType.Date, direction: ParameterDirection.Input);
-            p.Add("from_dateS", to_date, dbType: DbType.Date, direction: ParameterDirection.Input);
+            p.Add("from_dateS",from_date, dbType: DbType.DateTime, direction: ParameterDirection.Input);
+            p.Add("from_dateS", to_date, dbType: DbType.DateTime, direction: ParameterDirection.Input);
             IEnumerable<Student> result = _IdbContext.Connection.Query<Student>
                 ("student_Package.displayStudentbetweenInterval", p, commandType: CommandType.StoredProcedure);
             return result.ToList();
         }
 
-        public List<Student> displayStudentByBirthDate(DateOnly student_date)
+      
+
+        public List<Student> displayStudentByBirthDate(DateTime student_date)
         {
             var p = new DynamicParameters();
-            p.Add("from_dateS", student_date, dbType: DbType.Date, direction: ParameterDirection.Input); 
+            p.Add("from_dateS", student_date, dbType: DbType.DateTime, direction: ParameterDirection.Input); 
             IEnumerable<Student> result = _IdbContext.Connection.Query<Student>
                 ("student_Package.displayStudentByBirthDate", p,commandType:CommandType.StoredProcedure);
             return result.ToList();
         }
 
+     
         public List<Student> displayStudentByFname(string Fname)
         {
             var p = new DynamicParameters();
@@ -105,7 +108,7 @@ namespace LarningHub.Infra.Repository
             p.Add("IDs", student.Studentid, dbType: DbType.Int32, direction: ParameterDirection.Input);
             p.Add("student_Fname", student.Firstname, dbType: DbType.String, direction: ParameterDirection.Input);
             p.Add("student_Lname", student.Lastname, dbType: DbType.String, direction: ParameterDirection.Input);
-            p.Add("student_date", student.Dateofbirth, dbType: DbType.Date, direction: ParameterDirection.Input);
+            p.Add("student_date", student.Dateofbirth, dbType: DbType.DateTime, direction: ParameterDirection.Input);
             var result = _IdbContext.Connection.Execute("student_Package.CreateStudent", p, commandType: CommandType.StoredProcedure);
         }
     }

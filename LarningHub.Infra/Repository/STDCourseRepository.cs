@@ -27,7 +27,7 @@ namespace LarningHub.Infra.Repository
             p.Add("student_id",stdcourse.St,dbType:DbType.Int32,direction:ParameterDirection.Input);
             p.Add("Course_Student_ID",stdcourse.Courseid,dbType:DbType.Int32,direction:ParameterDirection.Input);
             p.Add("Mark_Of_STD",stdcourse.Markofsid,dbType:DbType.Int32,direction:ParameterDirection.Input);
-            p.Add("dateOfr",stdcourse.Dateofregister,dbType:DbType.Date,direction:ParameterDirection.Input);
+            p.Add("dateOfr",stdcourse.Dateofregister,dbType:DbType.DateTime, direction:ParameterDirection.Input);
             var result = _IdbContext.Connection.Execute("STDcourse_Package.CreateSTDcourse", p,commandType:CommandType.StoredProcedure);
 
         }
@@ -62,7 +62,7 @@ namespace LarningHub.Infra.Repository
             p.Add("student_id", stdcourse.St, dbType: DbType.Int32, direction: ParameterDirection.Input);
             p.Add("Course_Student_ID", stdcourse.Courseid, dbType: DbType.Int32, direction: ParameterDirection.Input);
             p.Add("Mark_Of_STD", stdcourse.Markofsid, dbType: DbType.Int32, direction: ParameterDirection.Input);
-            p.Add("dateOfr", stdcourse.Dateofregister, dbType: DbType.Date, direction: ParameterDirection.Input);
+            p.Add("dateOfr", stdcourse.Dateofregister, dbType: DbType.DateTime, direction: ParameterDirection.Input);
             var result = _IdbContext.Connection.Execute("STDcourse_Package.UpdateSTDcourse", p, commandType: CommandType.StoredProcedure);
 
         }

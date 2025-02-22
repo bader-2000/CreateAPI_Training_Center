@@ -18,8 +18,8 @@ namespace LarningHub.Core.Repository
         public void DeleteStudent(int ID);
         public List<Student> displayFNameAndLNameStudent();
         public List<Student> displayStudentByFname(String Fname );
-        public List<Student> displayStudentByBirthDate(DateOnly student_date);
-        public List<Student> displayStudentbetweenInterval(DateOnly from_date,DateOnly to_date);
+        public List<Student> displayStudentByBirthDate(DateTime student_date);
+        public List<Student> displayStudentbetweenInterval(DateTime from_date, DateTime to_date);
         public List<Student> displayStudentHighestMarks(int NumOfStudent);
     }
 }

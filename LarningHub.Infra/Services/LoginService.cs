@@ -1,4 +1,5 @@
 ﻿using LarningHub.Core.Data;
+using LarningHub.Core.Repository;
 using LarningHub.Core.Services;
 using System;
 using System.Collections.Generic;
@@ -10,35 +11,35 @@ namespace LarningHub.Infra.Services
 {
     public class LoginService : ILoginService
     {
-        private readonly ILoginService _loginService;
+        private readonly ILoginRepository _loginRepository;
 
-        public LoginService(ILoginService loginService) 
+        public LoginService(ILoginRepository loginRepository)
         {
-            _loginService = loginService;   
+            _loginRepository = loginRepository;
         }
         public void CreateLogin(Login login)
         {
-           _loginService.CreateLogin(login);
+            _loginRepository.CreateLogin(login);
         }
 
         public void DeleteLogin(int ID)
         {
-           _loginService.DeleteLogin(ID);
+            _loginRepository.DeleteLogin(ID);
         }
 
         public List<Login> GetAllLogin()
         {
-           return _loginService.GetAllLogin();  
+           return _loginRepository.GetAllLogin();  
         }
 
         public Login GetLoginByID(int ID)
         {
-            return _loginService.GetLoginByID(ID);
+            return _loginRepository.GetLoginByID(ID);
         }
 
         public void UpdateLogin(Login login)
         {
-            _loginService.UpdateLogin(login);
+            _loginRepository.UpdateLogin(login);
         }
     }
 }

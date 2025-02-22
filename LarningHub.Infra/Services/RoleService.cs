@@ -1,4 +1,5 @@
 ﻿using LarningHub.Core.Data;
+using LarningHub.Core.Repository;
 using LarningHub.Core.Services;
 using System;
 using System.Collections.Generic;
@@ -10,35 +11,36 @@ namespace LarningHub.Infra.Services
 {
     public class RoleService : IRoleService
     {
-        private readonly IRoleService _roleservice;
-        public RoleService(IRoleService roleservice)
+        private readonly IRoleRepository _roleRepository;
+
+        public RoleService(IRoleRepository roleRepository)
         {
-            _roleservice = roleservice;
+            _roleRepository = roleRepository;
         }
 
         public void CreateRole(Role role)
         {
-            _roleservice.CreateRole(role);
+            _roleRepository.CreateRole(role);
         }
 
         public void DeleteRole(int ID)
         {
-            _roleservice.DeleteRole(ID);
+            _roleRepository.DeleteRole(ID);
         }
 
         public List<Role> GetAllRole()
         {
-            return _roleservice.GetAllRole();
+            return _roleRepository.GetAllRole();
         }
 
         public Role GetRoleByID(int ID)
         {
-           return _roleservice.GetRoleByID(ID);
+           return _roleRepository.GetRoleByID(ID);
         }
 
         public void UpdateRole(Role role)
         {
-            _roleservice.UpdateRole(role);  
+            _roleRepository.UpdateRole(role);  
         }
     }
 }

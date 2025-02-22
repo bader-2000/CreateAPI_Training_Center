@@ -1,4 +1,5 @@
 ﻿using LarningHub.Core.Data;
+using LarningHub.Core.Repository;
 using LarningHub.Core.Services;
 using System;
 using System.Collections.Generic;
@@ -10,34 +11,35 @@ namespace LarningHub.Infra.Services
 {
     public class CategoryService : ICategoryService
     {
-        private readonly ICategoryService _categoryServices;
-        public CategoryService(CategoryService categoryServices)
+        private readonly ICategoryRepository _categoryRepository;
+
+        public CategoryService(ICategoryRepository categoryRepository)
         {
-            _categoryServices = categoryServices;
+            _categoryRepository = categoryRepository;
         }
         public void CreateCategory(Category category)
         {
-            _categoryServices.CreateCategory(category);
+            _categoryRepository.CreateCategory(category);
         }
 
         public void DeleteCategory(int ID)
         {
-           _categoryServices.DeleteCategory(ID);
+            _categoryRepository.DeleteCategory(ID);
         }
 
         public List<Category> GetAllCategory()
         {
-            return _categoryServices.GetAllCategory();
+            return _categoryRepository.GetAllCategory();
         }
 
         public Category GetCategoryByID(int ID)
         {
-            return _categoryServices.GetCategoryByID(ID);   
+            return _categoryRepository.GetCategoryByID(ID);   
         }
 
         public void UpdateCategory(Category category)
         {
-            _categoryServices.UpdateCategory(category); 
+            _categoryRepository.UpdateCategory(category); 
         }
     }
 }

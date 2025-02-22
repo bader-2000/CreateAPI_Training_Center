@@ -3,48 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|c:\\users\\qk-21\\source\\repos\\larninghub.api\\larninghub.api\\larninghub.infra\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|solutionrelative:larninghub.infra\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B82C4B9-65AE-4FB9-ACED-EEAB31A0860D}|LarningHub.Core\\LarningHub.Core.csproj|c:\\users\\qk-21\\source\\repos\\larninghub.api\\larninghub.api\\larninghub.core\\common\\idbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B82C4B9-65AE-4FB9-ACED-EEAB31A0860D}|LarningHub.Core\\LarningHub.Core.csproj|solutionrelative:larninghub.core\\common\\idbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|c:\\users\\qk-21\\source\\repos\\larninghub.api\\larninghub.api\\larninghub.infra\\services\\stdcourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|solutionrelative:larninghub.infra\\services\\stdcourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FBE6128-1382-4DE7-99A4-FFF1F725AD06}|LarningHub.API\\LarningHub.API.csproj|c:\\users\\qk-21\\source\\repos\\larninghub.api\\larninghub.api\\larninghub.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4FBE6128-1382-4DE7-99A4-FFF1F725AD06}|LarningHub.API\\LarningHub.API.csproj|solutionrelative:larninghub.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|c:\\users\\qk-21\\source\\repos\\larninghub.api\\larninghub.api\\larninghub.infra\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|solutionrelative:larninghub.infra\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|c:\\users\\qk-21\\source\\repos\\larninghub.api\\larninghub.api\\larninghub.infra\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|solutionrelative:larninghub.infra\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|c:\\users\\qk-21\\source\\repos\\larninghub.api\\larninghub.api\\larninghub.infra\\services\\courseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|solutionrelative:larninghub.infra\\services\\courseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|c:\\users\\qk-21\\source\\repos\\larninghub.api\\larninghub.api\\larninghub.infra\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|solutionrelative:larninghub.infra\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|c:\\users\\qk-21\\source\\repos\\larninghub.api\\larninghub.api\\larninghub.infra\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|solutionrelative:larninghub.infra\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|c:\\users\\qk-21\\source\\repos\\larninghub.api\\larninghub.api\\larninghub.infra\\repository\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|solutionrelative:larninghub.infra\\repository\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B82C4B9-65AE-4FB9-ACED-EEAB31A0860D}|LarningHub.Core\\LarningHub.Core.csproj|c:\\users\\qk-21\\source\\repos\\larninghub.api\\larninghub.api\\larninghub.core\\repository\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B82C4B9-65AE-4FB9-ACED-EEAB31A0860D}|LarningHub.Core\\LarningHub.Core.csproj|solutionrelative:larninghub.core\\repository\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|c:\\users\\qk-21\\source\\repos\\larninghub.api\\larninghub.api\\larninghub.infra\\repository\\stdcourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|solutionrelative:larninghub.infra\\repository\\stdcourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|c:\\users\\qk-21\\source\\repos\\larninghub.api\\larninghub.api\\larninghub.infra\\repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B756A3F-1154-4C19-9924-BF60837CD7E8}|LarningHub.Infra\\LarningHub.Infra.csproj|solutionrelative:larninghub.infra\\repository\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FBE6128-1382-4DE7-99A4-FFF1F725AD06}|LarningHub.API\\LarningHub.API.csproj|c:\\users\\qk-21\\source\\repos\\larninghub.api\\larninghub.api\\larninghub.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FBE6128-1382-4DE7-99A4-FFF1F725AD06}|LarningHub.API\\LarningHub.API.csproj|solutionrelative:larninghub.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,73 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 319,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Services\\StudentService.cs",
-              "RelativeDocumentMoniker": "LarningHub.Infra\\Services\\StudentService.cs",
-              "ToolTip": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Services\\StudentService.cs",
-              "RelativeToolTip": "LarningHub.Infra\\Services\\StudentService.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAA1wEIAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T02:01:50.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "STDCourseService.cs",
-              "DocumentMoniker": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Services\\STDCourseService.cs",
-              "RelativeDocumentMoniker": "LarningHub.Infra\\Services\\STDCourseService.cs",
-              "ToolTip": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Services\\STDCourseService.cs",
-              "RelativeToolTip": "LarningHub.Infra\\Services\\STDCourseService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwCgAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T01:59:07.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "LarningHub.Infra\\Services\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Services\\CategoryService.cs",
-              "RelativeToolTip": "LarningHub.Infra\\Services\\CategoryService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCcAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T01:40:52.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RoleService.cs",
-              "DocumentMoniker": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Services\\RoleService.cs",
-              "RelativeDocumentMoniker": "LarningHub.Infra\\Services\\RoleService.cs",
-              "ToolTip": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Services\\RoleService.cs",
-              "RelativeToolTip": "LarningHub.Infra\\Services\\RoleService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T01:41:53.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginService.cs",
-              "DocumentMoniker": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Services\\LoginService.cs",
-              "RelativeDocumentMoniker": "LarningHub.Infra\\Services\\LoginService.cs",
-              "ToolTip": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Services\\LoginService.cs",
-              "RelativeToolTip": "LarningHub.Infra\\Services\\LoginService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T01:41:19.222Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -139,80 +42,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CourseServices.cs",
-              "DocumentMoniker": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Services\\CourseServices.cs",
-              "RelativeDocumentMoniker": "LarningHub.Infra\\Services\\CourseServices.cs",
-              "ToolTip": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Services\\CourseServices.cs",
-              "RelativeToolTip": "LarningHub.Infra\\Services\\CourseServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "IDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Core\\Common\\IDBContext.cs",
+              "RelativeDocumentMoniker": "LarningHub.Core\\Common\\IDBContext.cs",
+              "ToolTip": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Core\\Common\\IDBContext.cs",
+              "RelativeToolTip": "LarningHub.Core\\Common\\IDBContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T01:26:43.325Z",
+              "WhenOpened": "2025-02-22T04:08:32.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RoleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Repository\\RoleRepository.cs",
-              "RelativeDocumentMoniker": "LarningHub.Infra\\Repository\\RoleRepository.cs",
-              "ToolTip": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Repository\\RoleRepository.cs",
-              "RelativeToolTip": "LarningHub.Infra\\Repository\\RoleRepository.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T00:07:57.073Z",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.API\\appsettings.json",
+              "RelativeDocumentMoniker": "LarningHub.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.API\\appsettings.json",
+              "RelativeToolTip": "LarningHub.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-22T03:58:05.185Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StudentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Repository\\StudentRepository.cs",
-              "RelativeDocumentMoniker": "LarningHub.Infra\\Repository\\StudentRepository.cs",
-              "ToolTip": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Repository\\StudentRepository.cs",
-              "RelativeToolTip": "LarningHub.Infra\\Repository\\StudentRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAhwFkAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.API\\Program.cs",
+              "RelativeDocumentMoniker": "LarningHub.API\\Program.cs",
+              "ToolTip": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.API\\Program.cs",
+              "RelativeToolTip": "LarningHub.API\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAlwA8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T00:29:32.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ICourseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Core\\Repository\\ICourseRepository.cs",
-              "RelativeDocumentMoniker": "LarningHub.Core\\Repository\\ICourseRepository.cs",
-              "ToolTip": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Core\\Repository\\ICourseRepository.cs",
-              "RelativeToolTip": "LarningHub.Core\\Repository\\ICourseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T01:26:11.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "STDCourseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Repository\\STDCourseRepository.cs",
-              "RelativeDocumentMoniker": "LarningHub.Infra\\Repository\\STDCourseRepository.cs",
-              "ToolTip": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Repository\\STDCourseRepository.cs",
-              "RelativeToolTip": "LarningHub.Infra\\Repository\\STDCourseRepository.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAkwC0AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T23:43:25.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CourseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Repository\\CourseRepository.cs",
-              "RelativeDocumentMoniker": "LarningHub.Infra\\Repository\\CourseRepository.cs",
-              "ToolTip": "C:\\Users\\qk-21\\source\\repos\\LarningHub.API\\LarningHub.API\\LarningHub.Infra\\Repository\\CourseRepository.cs",
-              "RelativeToolTip": "LarningHub.Infra\\Repository\\CourseRepository.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T23:15:34.289Z",
+              "WhenOpened": "2025-02-22T03:45:40.4Z",
               "EditorCaption": ""
             }
           ]
