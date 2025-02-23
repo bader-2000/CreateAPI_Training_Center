@@ -34,7 +34,7 @@ namespace LarningHub.Infra.Repository
         public void DeleteLogin(int ID)
         {
             var p =new DynamicParameters();
-            p.Add("ID",ID,dbType:DbType.Int64,direction:ParameterDirection.Input);
+            p.Add("IDl",ID,dbType:DbType.Int64,direction:ParameterDirection.Input);
             var result = _IdbContext.Connection.Execute("Login_Package.DeleteLogin",p,commandType:CommandType.StoredProcedure);
         }
         public List<Login> GetAllLogin()
@@ -45,7 +45,7 @@ namespace LarningHub.Infra.Repository
         public Login GetLoginByID(int ID)
         {
             var p = new DynamicParameters();
-            p.Add("ID",ID,dbType:DbType.Int32,direction:ParameterDirection.Input);
+            p.Add("IDl", ID,dbType:DbType.Int32,direction:ParameterDirection.Input);
             IEnumerable<Login> result = _IdbContext.Connection.Query<Login>
                 ("Login_Package.GetLoginByID",p,commandType:CommandType.StoredProcedure);
             return result.FirstOrDefault();
@@ -54,7 +54,7 @@ namespace LarningHub.Infra.Repository
         public void UpdateLogin(Login login)
         {
             var p = new DynamicParameters();
-            p.Add("ID",login.Loginid, dbType: DbType.Int32, direction: ParameterDirection.Input);
+            p.Add("IDl",login.Loginid, dbType: DbType.Int32, direction: ParameterDirection.Input);
             p.Add("username",login.Username, dbType: DbType.String, direction: ParameterDirection.Input);
             p.Add("pass",login.UserPassword, dbType: DbType.String, direction: ParameterDirection.Input);
             p.Add("roleID",login.Roleid, dbType: DbType.Int32, direction: ParameterDirection.Input);

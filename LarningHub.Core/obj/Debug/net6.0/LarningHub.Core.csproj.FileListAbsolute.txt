@@ -6,8 +6,8 @@ C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.Core\obj\De
 C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.Core\obj\Debug\net6.0\LarningHub.Core.AssemblyInfoInputs.cache
 C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.Core\obj\Debug\net6.0\LarningHub.Core.AssemblyInfo.cs
 C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.Core\obj\Debug\net6.0\LarningHub.Core.csproj.CoreCompileInputs.cache
+C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.Core\obj\Debug\net6.0\LarningHub.Core.sourcelink.json
 C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.Core\obj\Debug\net6.0\LarningHub.Core.dll
 C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.Core\obj\Debug\net6.0\refint\LarningHub.Core.dll
 C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.Core\obj\Debug\net6.0\LarningHub.Core.pdb
 C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.Core\obj\Debug\net6.0\ref\LarningHub.Core.dll
-C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.Core\obj\Debug\net6.0\LarningHub.Core.sourcelink.json

@@ -14,5 +14,6 @@ namespace LarningHub.Core.Services
         public void CreateCategory(Category category);
         public void UpdateCategory(Category category);
         public void DeleteCategory(int ID);
+       
     }
 }

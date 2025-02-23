@@ -23,7 +23,7 @@ namespace LarningHub.Infra.Repository
         public void CreateRole(Role role)
         {
             var p = new DynamicParameters();
-            p.Add("role_name",dbType:DbType.String,direction:ParameterDirection.Input);
+            p.Add("role_name",role.Rolename, dbType:DbType.String,direction:ParameterDirection.Input);
             var result = _IdbContext.Connection.Execute("Role_Package.CreateRole",p,commandType:CommandType.StoredProcedure);
 
         }
@@ -55,8 +55,8 @@ namespace LarningHub.Infra.Repository
         public void UpdateRole(Role role)
         {
             var p = new DynamicParameters();
-            p.Add("ID", dbType: DbType.String, direction: ParameterDirection.Input);
-            p.Add("role_name", dbType: DbType.String, direction: ParameterDirection.Input);
+            p.Add("ID",role.Roleid, dbType: DbType.Int32, direction: ParameterDirection.Input);
+            p.Add("role_name", role.Rolename, dbType: DbType.String, direction: ParameterDirection.Input);
             var result = _IdbContext.Connection.Execute("Role_Package.UpdateRole", p, commandType: CommandType.StoredProcedure);
 
         }

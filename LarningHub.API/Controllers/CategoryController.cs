@@ -23,7 +23,31 @@ namespace LarningHub.API.Controllers
         {
             return categoryService.GetAllCategory();
         }
-
+        
+        [HttpGet]
+        [Route("getbyId/{id}")]
+        public Category GetCategoryByID(int ID) 
+        {
+            return categoryService.GetCategoryByID(ID);
+        }
+        [HttpPost]
+        [Route("Create")]
+        public void CreateCategory(Category category)
+        {
+            categoryService.CreateCategory(category);
+        }
+        [HttpPut]
+        [Route("update")]
+        public void UpdateCategory(Category category)
+        {
+            categoryService.UpdateCategory(category);
+        }
+        [HttpDelete]
+        [Route("deleteByID/{id}")]
+        public void DeleteCategory(int ID)
+        {
+            categoryService.DeleteCategory(ID);
+        }
 
     }
 }

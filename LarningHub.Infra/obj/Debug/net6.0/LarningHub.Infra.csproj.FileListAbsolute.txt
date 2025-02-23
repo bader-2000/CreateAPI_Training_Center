@@ -9,10 +9,10 @@ C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.Infra\obj\D
 C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.Infra\obj\Debug\net6.0\LarningHub.Infra.AssemblyInfoInputs.cache
 C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.Infra\obj\Debug\net6.0\LarningHub.Infra.AssemblyInfo.cs
 C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.Infra\obj\Debug\net6.0\LarningHub.Infra.csproj.CoreCompileInputs.cache
+C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.Infra\obj\Debug\net6.0\LarningHub.Infra.sourcelink.json
 C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.Infra\obj\Debug\net6.0\LarningH.B36C53D9.Up2Date
 C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.Infra\obj\Debug\net6.0\LarningHub.Infra.dll
 C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.Infra\obj\Debug\net6.0\refint\LarningHub.Infra.dll
 C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.Infra\obj\Debug\net6.0\LarningHub.Infra.pdb
 C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.Infra\obj\Debug\net6.0\LarningHub.Infra.genruntimeconfig.cache
 C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.Infra\obj\Debug\net6.0\ref\LarningHub.Infra.dll
-C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.Infra\obj\Debug\net6.0\LarningHub.Infra.sourcelink.json
