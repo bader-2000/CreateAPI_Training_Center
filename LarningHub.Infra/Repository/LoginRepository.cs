@@ -24,7 +24,7 @@ namespace LarningHub.Infra.Repository
         {
             var p = new DynamicParameters();
             p.Add("username",login.Username,dbType:DbType.String,direction:ParameterDirection.Input);
-            p.Add("pass", login.UserPassword, dbType: DbType.String, direction: ParameterDirection.Input);
+            p.Add("pass", login.User_Password, dbType: DbType.String, direction: ParameterDirection.Input);
             p.Add("roleID", login.Roleid, dbType: DbType.Int32, direction: ParameterDirection.Input);
             p.Add("studentID", login.Studentid, dbType: DbType.Int32, direction: ParameterDirection.Input);
             var result = _IdbContext.Connection.Execute("Login_Package.CreateLogin",p,commandType:CommandType.StoredProcedure);
@@ -56,7 +56,7 @@ namespace LarningHub.Infra.Repository
             var p = new DynamicParameters();
             p.Add("IDl",login.Loginid, dbType: DbType.Int32, direction: ParameterDirection.Input);
             p.Add("username",login.Username, dbType: DbType.String, direction: ParameterDirection.Input);
-            p.Add("pass",login.UserPassword, dbType: DbType.String, direction: ParameterDirection.Input);
+            p.Add("pass",login.User_Password, dbType: DbType.String, direction: ParameterDirection.Input);
             p.Add("roleID",login.Roleid, dbType: DbType.Int32, direction: ParameterDirection.Input);
             p.Add("studentID",login.Studentid, dbType: DbType.Int32, direction: ParameterDirection.Input);
             var result = _IdbContext.Connection.Execute("Login_Package.UpdateLogin", p, commandType: CommandType.StoredProcedure);

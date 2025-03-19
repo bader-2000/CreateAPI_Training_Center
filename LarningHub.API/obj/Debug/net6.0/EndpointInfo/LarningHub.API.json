@@ -724,6 +724,44 @@
         }
       }
     },
+    "/api/STDCourse/getTotalStudentEachCourse": {
+      "get": {
+        "tags": [
+          "STDCourse"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TotalStudent"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TotalStudent"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TotalStudent"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/STDCourse/getbyid/{id}": {
       "get": {
         "tags": [
@@ -1361,7 +1399,7 @@
             "type": "string",
             "nullable": true
           },
-          "userPassword": {
+          "user_Password": {
             "type": "string",
             "nullable": true
           },
@@ -1473,6 +1511,21 @@
             "items": {
               "$ref": "#/components/schemas/Stdcourse"
             },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TotalStudent": {
+        "type": "object",
+        "properties": {
+          "courseName": {
+            "type": "string",
+            "nullable": true
+          },
+          "countStudent": {
+            "type": "number",
+            "format": "double",
             "nullable": true
           }
         },

@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\LarningHub.Core",
+    "\\LarningHub.Infra",
+    "\\LarningHub.Infra\\Common"
+  ],
+  "SelectedNode": "\\LarningHub.Infra\\Common\\DBContext.cs",
+  "PreviewInSolutionExplorer": false
+}

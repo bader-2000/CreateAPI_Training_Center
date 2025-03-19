@@ -7,7 +7,7 @@ namespace LarningHub.Core.Data
     {
         public decimal Loginid { get; set; }
         public string? Username { get; set; }
-        public string? UserPassword { get; set; }
+        public string? User_Password { get; set; }
         public decimal? Roleid { get; set; }
         public decimal? Studentid { get; set; }
 

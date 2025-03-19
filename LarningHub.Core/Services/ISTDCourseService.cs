@@ -1,4 +1,5 @@
 ﻿using LarningHub.Core.Data;
+using LarningHub.Core.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,5 +15,6 @@ namespace LarningHub.Core.Services
         public void CreateSTDcourse(Stdcourse stdcourse);
         public void UpdateSTDcourse(Stdcourse stdcourse);
         public void DeleteSTDcourse(int ID);
+        public List<TotalStudent> TotalCountStudenEachCourse();
     }
 }

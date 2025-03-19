@@ -1,6 +1,7 @@
 ﻿using Dapper;
 using LarningHub.Core.Common;
 using LarningHub.Core.Data;
+using LarningHub.Core.DTO;
 using LarningHub.Core.Repository;
 using System;
 using System.Collections.Generic;
@@ -65,6 +66,14 @@ namespace LarningHub.Infra.Repository
             p.Add("dateOfr", stdcourse.Dateofregister, dbType: DbType.DateTime, direction: ParameterDirection.Input);
             var result = _IdbContext.Connection.Execute("STDcourse_Package.UpdateSTDcourse", p, commandType: CommandType.StoredProcedure);
 
+        }
+
+       public List<TotalStudent> TotalCountStudenEachCourse()
+        {
+            var result = _IdbContext.Connection.Query<TotalStudent>
+                ("STDcourse_Package.TotalCountStudenEachCourse", commandType:CommandType.StoredProcedure);
+            return result.ToList();
+            
         }
     }
 }

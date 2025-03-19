@@ -1,4 +1,5 @@
 ﻿using LarningHub.Core.Data;
+using LarningHub.Core.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +10,11 @@ namespace LarningHub.Core.Repository
 {
     public interface ISTDCourseRepository
     {
-        public List<Stdcourse> GetAllSTDcourse();
-        public Stdcourse GetSTDcourseByID(int ID);
-        public void CreateSTDcourse(Stdcourse stdcourse);
-        public void UpdateSTDcourse(Stdcourse stdcourse);
-        public void DeleteSTDcourse(int ID);
+         List<Stdcourse> GetAllSTDcourse();
+         Stdcourse GetSTDcourseByID(int ID);
+         void CreateSTDcourse(Stdcourse stdcourse);
+         void UpdateSTDcourse(Stdcourse stdcourse);
+         void DeleteSTDcourse(int ID);
+         List<TotalStudent> TotalCountStudenEachCourse();
     }
 }

@@ -1,4 +1,5 @@
 ﻿using LarningHub.Core.Data;
+using LarningHub.Core.DTO;
 using LarningHub.Core.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -21,6 +22,12 @@ namespace LarningHub.API.Controllers
         {
             return sTDCourseService.GetAllSTDcourse();
 
+        }
+        [HttpGet]
+        [Route("getTotalStudentEachCourse")]
+        public List<TotalStudent> TotalCountStudenEachCourse()
+        {
+            return sTDCourseService.TotalCountStudenEachCourse();
         }
         [HttpGet]
         [Route("getbyid/{id}")]

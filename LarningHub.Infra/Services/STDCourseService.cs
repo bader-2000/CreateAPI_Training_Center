@@ -1,4 +1,5 @@
 ﻿using LarningHub.Core.Data;
+using LarningHub.Core.DTO;
 using LarningHub.Core.Repository;
 using LarningHub.Core.Services;
 using System;
@@ -41,6 +42,11 @@ namespace LarningHub.Infra.Services
         public void UpdateSTDcourse(Stdcourse stdcourse)
         {
             _sTDCourseRepository.UpdateSTDcourse(stdcourse);
+        }
+
+        public List<TotalStudent> TotalCountStudenEachCourse() 
+        {
+             return _sTDCourseRepository.TotalCountStudenEachCourse();
         }
     }
 }

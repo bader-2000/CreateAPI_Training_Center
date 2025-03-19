@@ -104,3 +104,4 @@ C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.API\obj\Deb
 C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.API\obj\Debug\net6.0\LarningHub.API.pdb
 C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.API\obj\Debug\net6.0\LarningHub.API.genruntimeconfig.cache
 C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.API\obj\Debug\net6.0\ref\LarningHub.API.dll
+C:\Users\qk-21\source\repos\LarningHub.API\LarningHub.API\LarningHub.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

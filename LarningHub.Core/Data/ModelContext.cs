@@ -99,7 +99,7 @@ namespace LarningHub.Core.Data
                     .HasColumnType("NUMBER")
                     .HasColumnName("STUDENTID");
 
-                entity.Property(e => e.UserPassword)
+                entity.Property(e => e.User_Password)
                     .HasMaxLength(50)
                     .IsUnicode(false)
                     .HasColumnName("USER_PASSWORD");

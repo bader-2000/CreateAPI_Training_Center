@@ -559,6 +559,26 @@
   },
   {
     "ContainingType": "LarningHub.API.Controllers.STDCourseController",
+    "Method": "TotalCountStudenEachCourse",
+    "RelativePath": "api/STDCourse/getTotalStudentEachCourse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[LarningHub.Core.DTO.TotalStudent, LarningHub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LarningHub.API.Controllers.STDCourseController",
     "Method": "UpdateSTDcourse",
     "RelativePath": "api/STDCourse/update",
     "HttpMethod": "PUT",
